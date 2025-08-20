@@ -1,0 +1,7 @@
+task: detect
+model_file: pole_det.pt
+conf_threshold: 0.6
+iou_threshold: 0.5
+class_names:
+  0: "pole"
+colors: [0, 255, 0]
